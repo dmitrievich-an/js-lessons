@@ -1,37 +1,18 @@
-let students = [
-  {
-    name: "Bob",
-    age: 22,
-    isMarried: true,
-    scores: 85,
-  },
-  {
-    name: "Alex",
-    age: 21,
-    isMarried: true,
-    scores: 89,
-  },
-  {
-    name: "Nick",
-    age: 20,
-    isMarried: false,
-    scores: 120,
-  },
-  {
-    name: "John",
-    age: 19,
-    isMarried: false,
-    scores: 100,
-  }
-];
+// handler === listener === subscriber => function
+// handler c callback
 
-const getStName = (array) => {
-  const result = [];
-  const getName = item => item.name
-  for (let i = 0; i < array.length; i++) {
-    result[i] = getName(array[i])
-  }
-  return result;
-}
+const element = document.getElementById("hello")
 
-console.log(getStName(students));
+
+// element.addEventListener("click", listener)
+// element.removeEventListener("click", listener)
+
+
+// const string = "Hello My Best Friend!" // "H M B F"
+//
+// const onlyUpperCase = (s) => {
+//   return s.split("").filter(e => e === e.toUpperCase()).join("")
+// }
+//
+//
+// console.log(onlyUpperCase(string))
